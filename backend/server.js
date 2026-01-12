@@ -16,7 +16,7 @@ const app = express();
 app.use(express.json());
 app.use(cookieParser());
 app.use(cors({
-  origin: "https://gig-flow-15dqkf82p-amandagars-projects.vercel.app/gigs",
+  origin: "https://gig-flow-15dqkf82p-amandagars-projects.vercel.app",
   credentials: true
 }));
 
